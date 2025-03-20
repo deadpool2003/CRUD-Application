@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+table{
+    width: 95% !important;
+}
+th{
+    background-color: skyblue !important;
+    font-size: 30px;
+}
+table,th,td{
+    border: 1px solid black !important;
+    padding: 15px !important;
+    text-align: center;
+}
+td{
+    font-size: 20px;
+}
